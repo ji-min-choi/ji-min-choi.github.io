@@ -15,6 +15,6 @@ menu:
 
 ## Hi, i'am Jimin.
 
-![about cover](/content/page/about/heartcover.jpg)
+![about cover](/static/aboutimg/heartcover.jpg)
 
 I am a college student who is interested in web/app design that incorporates trending technologies.
