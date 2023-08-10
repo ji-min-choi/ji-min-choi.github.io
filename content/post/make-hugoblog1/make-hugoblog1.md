@@ -11,6 +11,7 @@ categories = [
 ]
 images = '/make-HugoBlog1-Cover.jpg'
 slug = '6'
+draft = true
 +++
 
 &nbsp;
