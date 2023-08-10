@@ -9,7 +9,7 @@ tags = [
 categories = [
     "Github",
 ]
-images = '/make-HugoBlog1-Cover.jpg'
+images = "make-HugoBlog1-Cover.jpg"
 slug = '6'
 draft = true
 +++
