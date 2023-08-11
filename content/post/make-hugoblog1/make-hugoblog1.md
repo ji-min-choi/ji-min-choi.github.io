@@ -46,11 +46,13 @@ git은 설치되어있다고 가정
 
 ### 2.1 Go 설치
 
-[https://go.dev/dl/](https://go.dev/dl/)
+[https://go.dev/dl/](https://go.dev/dl/)  
 나는 윈도우를 쓰기 때문에 Microsoft Windows로 다운 받아줬다
+
 ![Go](/img-hugoblog/installGo.png)
 
 go version로 설치 확인
+go version
 
 &nbsp;
 
@@ -103,6 +105,7 @@ Chocolatey 설치를 완료했다면 Hugo extended를 설치
 [https://themes.gohugo.io/](https://themes.gohugo.io/)를 참고!
 
 나는 `Stack` 테마를 선택했다
+
 ![theme](/img-hugoblog/stack.png)
 
 다운로드를 눌러 제작자의 깃허브 레파지토리로 이동한다
@@ -112,11 +115,11 @@ hugo site를 생성한 폴더로 이동한 뒤 테마를 다운받는다
 
     cd blog
     git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
-
     (git submodule add 개발자 레파지토리 주소 themes/테마 이름)
 
 vscode를 열어준다
-code .
+
+    code .
 
 `config.toml`을 수정해주는 게 다음 단계이다
 받아온 파일을 확인해보니 config.toml이 없고 hugo.toml뿐이었기 때문에 hugo.toml을 config.toml로 rename해주었다
@@ -132,7 +135,7 @@ config.toml을 수정하는 건 테마 개발자의 레파지토리에 있는 �
     [params.defaultImage.opengraph]
     enabled = false
 
-    (baseURL = 'https://깃허브 계정.github.io/'
+    (baseURL = 'https://깃허브계정.github.io/'
     languageCode = 'en-us'
     title = "블로그 이름"
     theme = '테마 이름'
