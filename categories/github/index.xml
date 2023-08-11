@@ -25,13 +25,14 @@ alt="github-icon"
 &lt;p>git은 설치되어있다고 가정&lt;/p>
 &lt;h3 id="21-go-설치">2.1 Go 설치&lt;/h3>
 &lt;p>&lt;a class="link" href="https://go.dev/dl/" target="_blank" rel="noopener"
->https://go.dev/dl/&lt;/a>
-나는 윈도우를 쓰기 때문에 Microsoft Windows로 다운 받아줬다
-&lt;img src="https://ji-min-choi.github.io/img-hugoblog/installGo.png"
+>https://go.dev/dl/&lt;/a>&lt;br>
+나는 윈도우를 쓰기 때문에 Microsoft Windows로 다운 받아줬다&lt;/p>
+&lt;p>&lt;img src="https://ji-min-choi.github.io/img-hugoblog/installGo.png"
 loading="lazy"
 alt="Go"
 >&lt;/p>
-&lt;p>go version로 설치 확인&lt;/p>
+&lt;p>go version로 설치 확인
+go version&lt;/p>
 &lt;p> &lt;/p>
 &lt;h3 id="22-hugo-설치">2.2 Hugo 설치&lt;/h3>
 &lt;p>Hugo extended를 설치하기 위해 &lt;code>Chocolatey&lt;/code>를 이용한다
@@ -65,8 +66,8 @@ Visit https://gohugo.io/ for quickstart guide and full documentation.
 &lt;p>블로그에 적용할 테마를 선택해준다
 &lt;a class="link" href="https://themes.gohugo.io/" target="_blank" rel="noopener"
 >https://themes.gohugo.io/&lt;/a>를 참고!&lt;/p>
-&lt;p>나는 &lt;code>Stack&lt;/code> 테마를 선택했다
-&lt;img src="https://ji-min-choi.github.io/img-hugoblog/stack.png"
+&lt;p>나는 &lt;code>Stack&lt;/code> 테마를 선택했다&lt;/p>
+&lt;p>&lt;img src="https://ji-min-choi.github.io/img-hugoblog/stack.png"
 loading="lazy"
 alt="theme"
 >&lt;/p>
@@ -77,8 +78,9 @@ alt="theme"
 git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
 (git submodule add 개발자 레파지토리 주소 themes/테마 이름)
 &lt;/code>&lt;/pre>
-&lt;p>vscode를 열어준다
-code .&lt;/p>
+&lt;p>vscode를 열어준다&lt;/p>
+&lt;pre>&lt;code>code .
+&lt;/code>&lt;/pre>
 &lt;p>&lt;code>config.toml&lt;/code>을 수정해주는 게 다음 단계이다
 받아온 파일을 확인해보니 config.toml이 없고 hugo.toml뿐이었기 때문에 hugo.toml을 config.toml로 rename해주었다&lt;/p>
 &lt;p>config.toml을 수정하는 건 테마 개발자의 레파지토리에 있는 설명서를 참고하자
@@ -89,7 +91,7 @@ title = &amp;quot;Jimin's archive&amp;quot;
 theme = 'hugo-theme-stack'
 [params.defaultImage.opengraph]
 enabled = false
-(baseURL = 'https://깃허브 계정.github.io/'
+(baseURL = 'https://깃허브계정.github.io/'
 languageCode = 'en-us'
 title = &amp;quot;블로그 이름&amp;quot;
 theme = '테마 이름'
