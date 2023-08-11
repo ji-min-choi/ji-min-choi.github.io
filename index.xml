@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jimin's archive</title><link>https://ji-min-choi.github.io/</link><description>Recent content on Jimin's archive</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://ji-min-choi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://ji-min-choi.github.io/about/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://ji-min-choi.github.io/about/</guid><description>&lt;h2 id="hi-iam-jimin">Hi, i&amp;rsquo;am Jimin.&lt;/h2>
-&lt;p>&lt;img src="https://ji-min-choi.github.io/static/aboutimg/heartcover.jpg"
+&lt;p>&lt;img src="https://ji-min-choi.github.io/img-about/heartcover.jpg"
 loading="lazy"
-alt="about cover"
+alt="about-cover"
 >&lt;/p>
 &lt;p>I am a college student who is interested in web/app design that incorporates trending technologies.&lt;/p></description></item><item><title>Markdown Syntax Guide</title><link>https://ji-min-choi.github.io/p/5/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://ji-min-choi.github.io/p/5/</guid><description>&lt;img src="https://ji-min-choi.github.io/p/5/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Markdown Syntax Guide" />&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p>
 &lt;h2 id="headings">Headings&lt;/h2>
