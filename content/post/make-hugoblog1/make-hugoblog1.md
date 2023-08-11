@@ -9,14 +9,14 @@ tags = [
 categories = [
     "Github",
 ]
-images = "make-HugoBlog1-Cover.jpg"
+image = "/img-hugoblog/hugoblog-cover.jpg"
 slug = '6'
-draft = true
+draft = false
 +++
 
 &nbsp;
 
-![github-icon](/static/hugoblog/github-icon.png)
+![github-icon](/img-hugoblog/github-icon.png)
 
 ## 1. Hugo를 이용해 깃허브 블로그를 만들게 된 계기
 
@@ -48,7 +48,7 @@ git은 설치되어있다고 가정
 
 [https://go.dev/dl/](https://go.dev/dl/)
 나는 윈도우를 쓰기 때문에 Microsoft Windows로 다운 받아줬다
-![Go](/static/hugoblog/installGo.png)
+![Go](/img-hugoblog/installGo.png)
 
 go version로 설치 확인
 
@@ -103,7 +103,7 @@ Chocolatey 설치를 완료했다면 Hugo extended를 설치
 [https://themes.gohugo.io/](https://themes.gohugo.io/)를 참고!
 
 나는 `Stack` 테마를 선택했다
-![theme](/static/hugoblog/stack.png)
+![theme](/img-hugoblog/stack.png)
 
 다운로드를 눌러 제작자의 깃허브 레파지토리로 이동한다
 개발자의 레파지토리 주소를 복사
