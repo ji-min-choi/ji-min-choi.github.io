@@ -4,15 +4,15 @@ loading="lazy"
 alt="github-icon"
 >&lt;/p>
 &lt;h2 id="hugo를-이용해-깃허브-블로그를-만들게-된-계기">Hugo를 이용해 깃허브 블로그를 만들게 된 계기&lt;/h2>
-&lt;p>줄곧 &amp;lsquo;공부한 내용 기록할 블로그 만들어야지&amp;rsquo; 라고 생각해오긴 했다.
-하지만 이렇게 순식간에 블로그를 만들게 된 시작점엔 여름방학 몰입교육이 위치해있다.
-몰입교육을 신청한 가장 큰 이유가 나에게 끝없는 자유가 주어진다면 공부는 고사하고 침대 밖으로도 잘 나오지 않을 것이기 때문에 몰입교육이라는 명분이 생긴다면 밖으로 나가 공부할 것이라는 기대였다.
-이는 나름 적중했다 볼 수 있다.
+&lt;p>줄곧 &amp;lsquo;공부한 내용 기록할 블로그 만들어야지&amp;rsquo; 라고 생각해오긴 했다.&lt;br>
+하지만 이렇게 순식간에 블로그를 만들게 된 시작점엔 여름방학 몰입교육이 위치해있다.&lt;br>
+몰입교육을 신청한 가장 큰 이유가 나에게 끝없는 자유가 주어진다면 공부는 고사하고 침대 밖으로도 잘 나오지 않을 것이기 때문에 몰입교육이라는 명분이 생긴다면 밖으로 나가 공부할 것이라는 기대 때문이었다. 이는 나름 적중했다 볼 수 있다.&lt;br>
 몇 달을 생각만 해오던 블로그 구축을 이틀 만에 해냈으니 말이다.&lt;/p>
-&lt;p>맨처음 공부 블로그를 만들자는 생각을 했을 땐 velog를 사용하려 했다.
-개발자들이 많이 사용 중이기도 하고 무난하게 좋아보인다는 게 그 이유였다. (구글링을 하면 velog 글이 많이 보였다)
-그러던 중 웹프로젝트 개발을 위해 서치하다 찾은 &lt;a class="link" href="https://inpa.tistory.com/entry/CSS-%F0%9F%92%8D-%EB%B2%84%ED%8A%BC-%EB%94%94%EC%9E%90%EC%9D%B8-%EB%AA%A8%EC%9D%8C" target="_blank" rel="noopener"
->인파님 블로그&lt;/a>를 보고 티스토리의 엄청난 꾸미기 자유도에 큰 매력을 느꼈고 고민이 시작되었다.&lt;/p>
+&lt;p>맨 처음 공부 블로그를 만들자는 생각을 했을 땐 velog를 사용하려 했다.&lt;br>
+개발자들이 많이 사용 중이기도 하고 무난하게 좋아보인다는 게 그 이유였다. (구글링을 하면 velog 글이 많이 보였다)&lt;br>
+그러던 중 &lt;a class="link" href="https://inpa.tistory.com/" target="_blank" rel="noopener"
+>인파님 블로그&lt;/a>를 접하게 되었다. 해당 블로그를 탐색하며 티스토리의 엄청난 꾸미기 자유도가 확 와닿았다.&lt;br>
+이에 큰 매력을 느꼈고 velog냐 티스토리냐 하는 고민이 시작되었다.&lt;/p>
 &lt;p>고민만 하며 시간을 보내던 중 몰입교육이 시작되었고 &amp;lsquo;깃허브 블로그 만들기&amp;rsquo;라는 과제가 떨어졌다.&lt;/p>
 &lt;p>깃허브 블로그에는 두 종류가 있다.&lt;/p>
 &lt;blockquote>
@@ -22,14 +22,14 @@ alt="github-icon"
 &lt;/ul>
 &lt;/blockquote>
 &lt;p>Jekyll이 만들기 더 쉽고 한국어 자료가 많지만 페이지 수가 몇 없는데도 빌드 시간이 길다는 단점이 있다.
-이 점때문에 강사님께서는 Go 기반의 Hugo로 만들어 볼 것을 추천해주셨고 그 결과 이 블로그가 탄생하게 되었다.&lt;/p>
+이 점 때문에 강사님께서는 Go 기반의 Hugo로 만들어 볼 것을 추천해주셨고 그 결과 이 블로그가 탄생하게 되었다.&lt;/p>
 &lt;p> &lt;/p>
 &lt;h2 id="블로그를-만들기-위한-환경-세팅">블로그를 만들기 위한 환경 세팅&lt;/h2>
 &lt;p>git은 설치되어있다고 가정&lt;/p>
 &lt;h3 id="go-설치">Go 설치&lt;/h3>
 &lt;p>&lt;a class="link" href="https://go.dev/dl/" target="_blank" rel="noopener"
 >https://go.dev/dl/&lt;/a>&lt;br>
-나는 윈도우를 쓰기 때문에 Microsoft Windows로 다운 받아줬다&lt;/p>
+나는 윈도우를 쓰기 때문에 Microsoft Windows로 다운받아줬다&lt;/p>
 &lt;p>&lt;img src="https://ji-min-choi.github.io/img-hugoblog/hugoblog1/installGo.png"
 loading="lazy"
 alt="Go"
